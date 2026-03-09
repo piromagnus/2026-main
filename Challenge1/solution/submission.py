@@ -18,6 +18,8 @@ TRAINING_CONFIG = {
     "cv_folds": 5,
     "cv_top_k": 5,
     "cv_prediction_top_k": 5,
+    "optuna_trials": 60,
+    "optuna_cv_folds": 3,
     "log_level": "INFO",
     "report_top_k": 3,
 }
@@ -61,6 +63,8 @@ def format_candidate_params(result):
     ordered_keys = [
         "alpha",
         "l1_ratio",
+        "k_features",
+        "ridge_alpha",
         "variance_threshold",
         "n_components",
         "kernel",
@@ -75,7 +79,13 @@ def format_candidate_params(result):
         "max_features",
         "max_samples",
         "num_leaves",
+        "min_child_samples",
+        "reg_alpha",
+        "reg_lambda",
+        "optuna_n_trials",
+        "optuna_best_value",
         "base_candidates",
+        "preferred_base_candidates",
     ]
     values = []
     for key in ordered_keys:
@@ -291,6 +301,8 @@ def save_tuning_report(model, output_dir, cv_results=None, top_predictions_summa
         "custom_score",
         "alpha",
         "l1_ratio",
+        "k_features",
+        "ridge_alpha",
         "variance_threshold",
         "n_components",
         "kernel",
@@ -305,7 +317,13 @@ def save_tuning_report(model, output_dir, cv_results=None, top_predictions_summa
         "max_features",
         "max_samples",
         "num_leaves",
+        "min_child_samples",
+        "reg_alpha",
+        "reg_lambda",
+        "optuna_n_trials",
+        "optuna_best_value",
         "base_candidates",
+        "preferred_base_candidates",
         "description",
         "usual_use",
         "good_points",
@@ -458,6 +476,16 @@ def main():
         type=str,
         default=None,
     )
+    parser.add_argument(
+        "--optuna-trials",
+        type=int,
+        default=TRAINING_CONFIG["optuna_trials"],
+    )
+    parser.add_argument(
+        "--optuna-cv-folds",
+        type=int,
+        default=TRAINING_CONFIG["optuna_cv_folds"],
+    )
     args = parser.parse_args()
 
     input_dir = args.input_dir
@@ -474,12 +502,16 @@ def main():
         random_state=TRAINING_CONFIG["random_state"],
         max_round=args.max_round,
         selection_metric=args.selection_metric,
+        optuna_trials=args.optuna_trials,
+        optuna_cv_folds=args.optuna_cv_folds,
     )
     LOGGER.info(
-        "Training model with validation_split=%.3f max_round=%d selection_metric=%s",
+        "Training model with validation_split=%.3f max_round=%d selection_metric=%s optuna_trials=%d optuna_cv_folds=%d",
         args.validation_split,
         args.max_round,
         args.selection_metric,
+        args.optuna_trials,
+        args.optuna_cv_folds,
     )
     model.fit(X_train, y_train)
     log_tuning_report(model=model, top_k=args.report_top_k)
