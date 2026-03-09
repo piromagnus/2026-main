@@ -1,0 +1,5 @@
+cv_rank,name,regressor,prediction_file
+1,elasticnet-a01-l03,elasticnet,cv_rank_01_elasticnet-a01-l03_y_pred.csv
+3,elasticnet-default,elasticnet,cv_rank_03_elasticnet-default_y_pred.csv
+4,elasticnet-a03-l07,elasticnet,cv_rank_04_elasticnet-a03-l07_y_pred.csv
+5,lasso-a01,lasso,cv_rank_05_lasso-a01_y_pred.csv

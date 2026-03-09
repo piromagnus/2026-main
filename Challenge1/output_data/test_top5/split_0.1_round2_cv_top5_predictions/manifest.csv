@@ -1,0 +1,6 @@
+cv_rank,name,regressor,prediction_file
+1,elasticnet-a01-l03,elasticnet,cv_rank_01_elasticnet-a01-l03_y_pred.csv
+2,elasticnet-default,elasticnet,cv_rank_02_elasticnet-default_y_pred.csv
+3,ridge-alpha-01,ridge,cv_rank_03_ridge-alpha-01_y_pred.csv
+4,ridge-alpha-1,ridge,cv_rank_04_ridge-alpha-1_y_pred.csv
+5,ridge-alpha-10,ridge,cv_rank_05_ridge-alpha-10_y_pred.csv
