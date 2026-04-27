@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.12.2)  23 MAR 2026 21:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.12.2)  23 MAR 2026 21:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**TD2.tex
-(./TD2.tex
+**TD4-Solutions.tex
+(./TD4-Solutions.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -530,8 +530,8 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count323
 \l__pdf_internal_box=\box105
-) (./TD2.aux)
-\openout1 = `TD2.aux'.
+) (./TD4-Solutions.aux)
+\openout1 = `TD4-Solutions.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 313.
 LaTeX Font Info:    ... okay on input line 313.
@@ -680,61 +680,62 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 332.
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 413.
-LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
-413.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmtt.fd
-File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
+(Font)              <10.95> on input line 333.
+
 
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/202
-5/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2025/texmf-di
+5/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2025/texmf-di
 st/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/d
 vips/lm/lm-mathex.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm
--mathit.enc}]
+-mathsy.enc}]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 407.
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
+415.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmtt.fd
+File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 
 [2{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-<TD2_files/figure-latex/unnamed-chunk-4-1.pdf, id=35, 505.89pt x 252.945pt>
-File: TD2_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type pdf)
-<use TD2_files/figure-latex/unnamed-chunk-4-1.pdf>
-Package pdftex.def Info: TD2_files/figure-latex/unnamed-chunk-4-1.pdf  used on 
-input line 495.
-(pdftex.def)             Requested size: 505.88875pt x 252.94438pt.
+<TD4-Solutions_files/figure-latex/unnamed-chunk-3-1.pdf, id=36, 216.81pt x 216.
+81pt>
+File: TD4-Solutions_files/figure-latex/unnamed-chunk-3-1.pdf Graphic file (type
+ pdf)
+<use TD4-Solutions_files/figure-latex/unnamed-chunk-3-1.pdf>
+Package pdftex.def Info: TD4-Solutions_files/figure-latex/unnamed-chunk-3-1.pdf
+  used on input line 503.
+(pdftex.def)             Requested size: 216.80946pt x 216.80946pt.
 
 
-[3 <./TD2_files/figure-latex/unnamed-chunk-4-1.pdf>]
-<TD2_files/figure-latex/unnamed-chunk-6-3.pdf, id=111, 578.16pt x 289.08pt>
-File: TD2_files/figure-latex/unnamed-chunk-6-3.pdf Graphic file (type pdf)
-<use TD2_files/figure-latex/unnamed-chunk-6-3.pdf>
-Package pdftex.def Info: TD2_files/figure-latex/unnamed-chunk-6-3.pdf  used on 
-input line 535.
-(pdftex.def)             Requested size: 578.15858pt x 289.07928pt.
+[3]
 
-Overfull \hbox (66.00896pt too wide) in paragraph at lines 535--535
- [] 
+[4 <./TD4-Solutions_files/figure-latex/unnamed-chunk-3-1.pdf>]
+
+[5]
+Overfull \hbox (28.23132pt too wide) in paragraph at lines 750--750
+[]\T1/lmtt/m/n/10.95 ## [1] Standard Errors assume that the covariance matrix o
+f the errors is correctly specified.[] 
  []
 
 
 
-[4 <./TD2_files/figure-latex/unnamed-chunk-6-3.pdf>] (./TD2.aux)
+[6] (./TD4-Solutions.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 17391 strings out of 473190
- 280520 string characters out of 5715800
- 746698 words of memory out of 5000000
- 40291 multiletter control sequences out of 15000+600000
- 615420 words of font info for 120 fonts, out of 8000000 for 9000
+ 17405 strings out of 473190
+ 280470 string characters out of 5715800
+ 751672 words of memory out of 5000000
+ 40278 multiletter control sequences out of 15000+600000
+ 619415 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,8n,79p,1000b,641s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 69i,8n,79p,1010b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
 cal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
 e/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2025/te
@@ -745,15 +746,15 @@ lmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/loca
 l/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/20
 25/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-d
-ist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2025/texmf-dist/fonts/
-type1/public/lm/lmtt10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ
-ic/lm/lmtti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfon
-ts/symbols/msam10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/am
-sfonts/symbols/msbm10.pfb>
-Output written on TD2.pdf (4 pages, 312302 bytes).
+ist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
+ype1/public/lm/lmtk10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi
+c/lm/lmtt10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtti
+10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/
+msam10.pfb>
+Output written on TD4-Solutions.pdf (6 pages, 301732 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 30731 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
+ 32774 words of extra memory for PDF output out of 35830 (max. 10000000)
 

@@ -48,14 +48,14 @@ The (initial) plan for the topics of each of our classes is the following:
   
 - **Week 8.1 (30-March 2026)**
   - CM8: Ensemble methods
-  - TD3: Some questions from previous exams
+  - TD3: Gradient boosting
 
 - **Week 8.2 (03-April 2026)**
   - TD4: Some questions from previous exams
 
 - **Week 9 (13-April 2026)**
   - CM9: ML competitions, metrics, etc.
-  - TD5: Gradient boosting
+  - TD5: Some questions from previous exams
 
 - **Week 10 (20-April 2026)**
   - CM10: Tabular Foundational Models
@@ -68,7 +68,7 @@ The (initial) plan for the topics of each of our classes is the following:
 ### Challenges
 
 - [Challenge 1](https://www.codabench.org/competitions/13881/) will run from 23-February 2026 to 22-March 2026
-- Challenge 2 will run from 23-March 2026 to 04-May 2026
+- [Challenge 2](https://www.codabench.org/competitions/15044/?secret_key=353c19bb-2453-4a33-af9b-f41dd42fdb5c) will run from 23-March 2026 to 04-May 2026
 
 ### Textbooks
 - Many examples and explanations given in class were inspired (or unashamedly copied) from Cosma Shalizi’s excellent lecture notes *“The truth about linear regression”* available [here](https://www.stat.cmu.edu/~cshalizi/TALR/).
